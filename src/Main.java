@@ -12,19 +12,19 @@
     //}
 //}
 
-import java.util.ArrayList;
-class main{
-    public static void main(String[]args){
-        ArrayList<Integer> list=new ArrayList();
-        ArrayList<Integer> list1=new ArrayList();
-        list.add(5);
-        list.add(10);
+//import java.util.ArrayList;
+//class main{
+    //public static void main(String[]args){
+      //  ArrayList<Integer> list=new ArrayList();
+        //ArrayList<Integer> list1=new ArrayList();
+        //list.add(5);
+        //list.add(10);
         //list.add(15);
-        list.add(1,30);
-        list.add(2,20);
-        list1.add(1);
-        list1.add(3);
-        list1.add(1,2);
+        //list.add(1,30);
+        //list.add(2,20);
+        //list1.add(1);
+        //list1.add(3);
+        //list1.add(1,2);
         //Access Elements
        // int first =list.get(1);
         //int last=list.get(list.size()-1);
@@ -40,9 +40,26 @@ class main{
         //for(int i=0;i<list.size();i++);
         //System.out.println(list.get(2));
         //ENHANCE FOR LOOP
-        for(int num:list){
-            System.out.println(num);
-        }
+        //for(int num:list){
+          //  System.out.println(num);
+        //}
         //System.out.println();
-    }
-}
+       // System.out.println(list);
+    //}
+
+
+//import java.util.*;
+//class main{
+  //  public static void main(String[]args){
+    //    HashMap<Integer,Integer>map=new HashMap<>();
+      //  map.put(1,10);
+       //System.out.println(map);
+        //System.out.println(map.get(2));
+        //System.out.println(map.getOrDefault(1,2));
+
+        //for(int x:map.keySet()){
+          //  System.out.println(map.get(x));
+        //}
+    //}
+//}
+
