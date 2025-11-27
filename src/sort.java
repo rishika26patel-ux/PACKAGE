@@ -13,12 +13,13 @@ import java.util.Collections;
 //}
 
 class Student implements Comparable<Student>{
-
     String name;
     int RollN;
 
     public Student(int RollN,String name){
+        this.name=name;
         this.RollN=RollN;
+
     }
     public int compareTo(Student s1){
         return this.RollN-s1.RollN;
@@ -31,8 +32,8 @@ class Student implements Comparable<Student>{
 class sort{
     public static void main(String[]args) {
         ArrayList<Student> list = new ArrayList<>();
-        list.add (new Student(160, "rishika"));
-        list.add(new Student(170,"neha"));
+        list.add (new Student(270, "rishika"));
+        list.add(new Student(151,"neha"));
         Collections.sort(list);
         System.out.println(list.toString());
     }
