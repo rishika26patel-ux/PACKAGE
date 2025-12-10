@@ -22,7 +22,7 @@
 static void createData(){
     try{
         FileWriter writer=new FileWriter("index.html");
-        writer.write("hello hii");
+        writer.write("");
         writer.close();
     }catch (Exception e){
         System.out.println(e);

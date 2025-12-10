@@ -3,7 +3,8 @@ import java.io.*;
 //public class file_creation {
 //public static void main(String[] args)
 void main(){
-    createData();
+    //createData();
+    readFileData();
     try {
         File file=new File("index.html");
         if(file.createNewFile())
@@ -19,13 +20,17 @@ void main(){
     }
 }
         //}
-        static void createData(){
+        static void readFileData(){
             try{
-                FileWriter writer=new FileWriter("index.html");
-                writer.write("hellow ji im rishi");
-                writer.close();
+                FileReader reader=new FileReader("index.html");
+                int ch;
+                while((ch=reader.read())!=-1){
+                    System.out.println((char)ch);
+                }
             }catch (Exception e){
                 System.out.println(e);
             }
         }
+
+
 
