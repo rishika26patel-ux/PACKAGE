@@ -2,7 +2,7 @@ class timethread extends  Thread{
     public void run(){
         System.out.println("rishiii!!");
         System.out.println(Thread.currentThread().getName());
-        for(int i=0; i<5;i++){
+        for(int i=0; i<20;i++){
             System.out.println(i+"t1");
             try{
                 Thread.sleep(2000);
@@ -24,7 +24,7 @@ public class time_thread {
             t1.join();
         }catch (Exception e){
         }
-        for(int i=0; i<5;i++){
+        for(int i=0; i<20;i++){
             System.out.println(i+"tannnu!!");
             try{
                 Thread.sleep(2000);
