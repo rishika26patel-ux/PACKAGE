@@ -1,5 +1,5 @@
 import java.util.*;
-public class string_api {
+public class string_map_api {
     public static void main(String[]args){
         ArrayList<Integer>list=new ArrayList<>();
         list.add(50);
@@ -8,7 +8,8 @@ public class string_api {
         list.add(80);
         list.add(90);
         list.add(100);
-       List<Integer> res= list.stream().filter(n->n>60).toList();
-       System.out.println(res);
+        List<Integer> mapRes= list.stream().map(n->n*2).toList();
+        System.out.println(mapRes);
     }
 }
+
