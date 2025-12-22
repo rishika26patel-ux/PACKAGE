@@ -1,11 +1,11 @@
 import java.util.HashMap;
 
 //
-//public class space_complexity {
-//    public static void main(String[]args){
-//
-//    }
-//}
+public class space_complexity {
+    public static void main(String[]args){
+
+   }
+}
 //int main(){
 //    majority_element (1,2,3,4,2,2,3,3,3,4,4);
 //}
