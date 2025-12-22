@@ -1,5 +1,5 @@
 import java.util.*;
-public class string_map_api {
+public class map_api {
     public static void main(String[]args){
         ArrayList<Integer>list=new ArrayList<>();
         list.add(50);

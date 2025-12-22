@@ -1,5 +1,5 @@
 import java.util.*;
-public class string_reduce_api {
+public class reduce_api {
     public static void main(String[]args){
         ArrayList<Integer>list=new ArrayList<>();
         list.add(50);
